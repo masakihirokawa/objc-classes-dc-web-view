@@ -42,11 +42,11 @@
     // 画面上下の端でバウンスしないよう指定
     [webView bounces:NO];
     
-    // URL読み込み
-    [webView loadUrl:@"http://dolice.net/mb/" view:self.view];
-    
     // ビューに追加
     [self.view addSubview:webView];
+    
+    // URL読み込み
+    [webView loadUrl:@"http://dolice.net/mb/" view:self.view];
 }
 
 @end
