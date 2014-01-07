@@ -1,7 +1,7 @@
 DCWebView
 ========================
 
-UIWebViewを使用する際に必要な機能を搭載した「DCWebView」クラスを作成しました。
+UIWebViewを使用する際に必要な機能を搭載した「DCWebView」クラスです。
 
 ##主な機能
 
@@ -24,5 +24,4 @@ DCWebView *webView = [[DCWebView alloc] initWithFrame:[[UIScreen mainScreen] app
 
 // URL読み込み
 [webView loadUrl:@"http://dolice.net/mb/" view:self.view];
-{% endcodeblock %}
 ```
